@@ -1,0 +1,64 @@
+body {
+      width: 100vw;
+      height: 100vh;
+
+      margin: 0;
+}
+
+h1 {
+      text-align: center;
+      font-size: 48px;
+}
+
+.styleBox {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.contain {
+      width: 90vw;
+
+      background-color: lightgray;
+}
+
+.showImg {
+      background-color: black;
+      z-index: 999;
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+}
+
+.display-none {
+      display: none;
+}
+
+.imgRender {
+      height: 200px;
+      min-width: 200px;
+      margin: 10px;
+}
+
+.imgCssBig {
+      height: 500px;
+      width: min-content;
+}
+
+.showImgCenter {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+}
+
+i {
+      margin: 25px;
+}
